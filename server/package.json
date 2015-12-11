@@ -1,0 +1,25 @@
+{
+  "name": "photon-googlemaps-server",
+  "version": "0.0.1",
+  "description": "Implementing the Google Maps API with the Particle Photon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n2b8/photon-googlemaps.git"
+  },
+  "author": "Jake McCaig <jake@downparty.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n2b8/photon-googlemaps/issues"
+  },
+  "homepage": "https://github.com/n2b8/photon-googlemaps#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "googlemaps": "^1.0.2",
+    "socketio": "^1.0.0"
+  }
+}
